@@ -10,7 +10,7 @@
     <meta name="author" content="">
 
     <title>NAVDRONE - Navegantes</title>
-
+    <link rel="icon"  type="image/png" href="assets/images/navdrone-navegantes.png" />
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
     
@@ -42,10 +42,10 @@
 				<a href="#home" class="logo page-scroll waves-effect">NAVDRONE</a>
 				<a href="#about-us" class="page-scroll waves-effect"><i class="fa fa-fw fa-user"></i><span>Sobre Nós</span></a>
 				<a href="#portfolio" class="page-scroll waves-effect"><i class="fa fa-fw fa-bell-o"></i><span>Portfolio</span></a>
-				<a href="#service" class="page-scroll waves-effect"><i class="fa fa-fw fa-bar-chart-o"></i><span>Services</span></a>
-				<a href="#latest-news" class="page-scroll waves-effect"><i class="fa fa-fw fa-mortar-board"></i><span>Atividades e Eventos</span></a>
-				<a href="#client" class="page-scroll waves-effect"><i class="fa fa-fw fa-comment-o"></i><span>Testimonial</span></a>
-				<a href="#contact" class="page-scroll waves-effect"><i class="fa fa-fw fa-envelope-o"></i><span>Contact</span></a>
+				<a href="#service" class="page-scroll waves-effect"><i class="fa fa-fw fa-bar-chart-o"></i><span>Serviços</span></a>
+<!-- 				<a href="#latest-news" class="page-scroll waves-effect"><i class="fa fa-fw fa-mortar-board"></i><span>Atividades e Eventos</span></a> -->
+				
+				<a href="#contact" class="page-scroll waves-effect"><i class="fa fa-fw fa-envelope-o"></i><span>Contato</span></a>
 			</div>
 		</nav>
 		<button class="close-button" id="close-button">Fechar</button>
@@ -76,53 +76,30 @@
                         </div>
                 </div>
             </div>
-            <div class="row">
-                
-                <div class="col-md-4 col-sm-4">
-                    <div class="welcome-section text-center">
-                        <img src="assets/images/photo-2.jpg" class="img-responsive" alt="..">
-                        <h4>Vídeos</h4>
-                        <div class="border"></div>
-                        <p>Duis aute irure dolor in reprehen derit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Lorem reprehenderit</p>
-                    </div>
-                </div>
-                
-                <div class="col-md-4 col-sm-4">
-                    <div class="welcome-section text-center">
-                        <img src="assets/images/photo-1.jpg" class="img-responsive" alt="..">
-                        <h4>Imagens</h4>
-                        <div class="border"></div>
-                        <p>Duis aute irure dolor in reprehen derit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Lorem reprehenderit</p>
-                    </div>
-                </div>
-                
-                <div class="col-md-4 col-sm-4">
-                    <div class="welcome-section text-center">
-                        <img src="assets/images/photo-3.jpg" class="img-responsive" alt="..">
-                        <h4>Serviços e Orçamento</h4>
-                        <div class="border"></div>
-                        <p>Duis aute irure dolor in reprehen derit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Lorem reprehenderit</p>
-                    </div>
-                </div>
-                
-            </div><!-- /.row -->            
+                      
             
         </div><!-- /.container -->
     </section>
     <!-- End About Us Section -->
-    
-    
-    
- 
-    
-    
+    <!-- Start Call to Action Section -->
+    <section class="background-10-vezes call-to-action">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Um clipe feito com um drone chega a ter <strong>10 vezes mais</strong> visualizações que um vídeo terrestre normal</h1>
+                    <img src="assets/images/navdrone-logo-medium.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Call to Action Section -->    
     <!-- Start Portfolio Section -->
     <section id="portfolio" class="portfolio-section">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-title text-center">
-                        <h2>Últimos Trabalhos</h2>
+                        <h2>Portfólio</h2>
                         <!-- <p>Duis aute irure dolor in reprehenderit in voluptate</p> -->
                     </div>                        
                 </div>
@@ -136,9 +113,8 @@
                             <div class="portfolio-item">
                                 <img src="assets/images/portfolio/port-5.jpg" class="img-responsive" alt="" />
                                 <div class="portfolio-caption">
-                                    <h4>Portfolio Title</h4>
+                                    <h4>Título do Álbum</h4>
                                     <a href="#portfolio-modal" data-toggle="modal" class="link-1"><i class="fa fa-magic"></i></a>
-                                    <a href="#" class="link-2"><i class="fa fa-link"></i></a>
                                 </div>
                             </div>
                         </li>
@@ -146,9 +122,8 @@
                             <div class="portfolio-item">
                                 <img src="assets/images/portfolio/port-2.jpg" class="img-responsive" alt="" />
                                 <div class="portfolio-caption">
-                                    <h4>Portfolio Title</h4>
+                                    <h4>Título do Álbum</h4>
                                     <a href="#portfolio-modal" data-toggle="modal" class="link-1"><i class="fa fa-magic"></i></a>
-                                    <a href="#" class="link-2"><i class="fa fa-link"></i></a>
                                 </div>
                             </div>
                         </li>
@@ -156,9 +131,9 @@
                             <div class="portfolio-item">
                                 <img src="assets/images/portfolio/port-3.jpg" class="img-responsive" alt="" />
                                 <div class="portfolio-caption">
-                                    <h4>Portfolio Title</h4>
+                                    <h4>Título do Álbum</h4>
                                     <a href="#portfolio-modal" data-toggle="modal" class="link-1"><i class="fa fa-magic"></i></a>
-                                    <a href="#" class="link-2"><i class="fa fa-link"></i></a>
+                                    
                                 </div>
                             </div>
                         </li>
@@ -166,9 +141,8 @@
                             <div class="portfolio-item">
                                 <img src="assets/images/portfolio/port-4.jpg" class="img-responsive" alt="" />
                                 <div class="portfolio-caption">
-                                    <h4>Portfolio Title</h4>
+                                    <h4>Título do Álbum</h4>
                                     <a href="#portfolio-modal" data-toggle="modal" class="link-1"><i class="fa fa-magic"></i></a>
-                                    <a href="#" class="link-2"><i class="fa fa-link"></i></a>
                                 </div>
                             </div>
                         </li>
@@ -176,9 +150,8 @@
                             <div class="portfolio-item">
                                 <img src="assets/images/portfolio/port-6.jpg" class="img-responsive" alt="" />
                                 <div class="portfolio-caption">
-                                    <h4>Portfolio Title</h4>
+                                    <h4>Título do Álbum</h4>
                                     <a href="#portfolio-modal" data-toggle="modal" class="link-1"><i class="fa fa-magic"></i></a>
-                                    <a href="#" class="link-2"><i class="fa fa-link"></i></a>
                                 </div>
                             </div>
                         </li>
@@ -186,9 +159,8 @@
                             <div class="portfolio-item">
                                 <img src="assets/images/portfolio/port-1.jpg" class="img-responsive" alt="" />
                                 <div class="portfolio-caption">
-                                    <h4>Portfolio Title</h4>
+                                    <h4>Título do Álbum</h4>
                                     <a href="#portfolio-modal" data-toggle="modal" class="link-1"><i class="fa fa-magic"></i></a>
-                                    <a href="#" class="link-2"><i class="fa fa-link"></i></a>
                                 </div>
                             </div>
                         </li>
@@ -215,20 +187,134 @@
             <div class="container">
                 <div class="row">
                     <div class="section-title text-center">
-                        <h2>Portfolio Details</h2>
+                        <h2>Título do Álbum</h2>
                         <p>Duis aute irure dolor in reprehenderit in voluptate</p>
                     </div>
                 </div>
-                <div class="row">
-                    
-                    <div class="col-md-6">
-                        <img src="assets/images/portfolio/port-1.jpg" class="img-responsive" alt="..">
+                    <div class="intro-album">
+                        <div class="row">
+                            
+                            <div class="col-md-2 img-thumbnail-intro">
+                                <img src="assets/images/portfolio/port-1.jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-video-camera" aria-hidden="true"></i> 03:32</span>
+                            </div>
+                            <div class="col-md-2 img-thumbnail-intro">
+                                <img src="assets/images/portfolio/port-2.jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-picture-o" aria-hidden="true"></i> 2Mb</span>
+                            </div>
+                            <div class="col-md-2 img-thumbnail-intro">
+                                <img src="assets/images/portfolio/port-1.jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-video-camera" aria-hidden="true"></i> 03:32</span>
+                            </div>
+                            <div class="col-md-2 img-thumbnail-intro">
+                                <img src="assets/images/portfolio/port-2.jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-picture-o" aria-hidden="true"></i> 2Mb</span>
+                            </div>
+                            <div class="col-md-2 img-thumbnail-intro">
+                                <img src="assets/images/portfolio/port-1.jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-video-camera" aria-hidden="true"></i> 03:32</span>
+                            </div>
+                            <div class="col-md-2 img-thumbnail-intro">
+                                <img src="assets/images/portfolio/port-2.jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-picture-o" aria-hidden="true"></i> 2Mb</span>
+                            </div>
+                            
+                            
+                        </div><!-- /.row -->
+                        <div class="row">
+                            
+                            <div class="col-md-2 img-thumbnail-intro">
+                                <img src="assets/images/portfolio/port-1.jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-video-camera" aria-hidden="true"></i> 03:32</span>
+                            </div>
+                            <div class="col-md-2 img-thumbnail-intro">
+                                <img src="assets/images/portfolio/port-2.jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-picture-o" aria-hidden="true"></i> 2Mb</span>
+                            </div>
+                            <div class="col-md-2 img-thumbnail-intro">
+                                <img src="assets/images/portfolio/port-1.jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-video-camera" aria-hidden="true"></i> 03:32</span>
+                            </div>
+                            <div class="col-md-2 img-thumbnail-intro">
+                                <img src="assets/images/portfolio/port-2.jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-picture-o" aria-hidden="true"></i> 2Mb</span>
+                            </div>
+                            <div class="col-md-2 img-thumbnail-intro">
+                                <img src="assets/images/portfolio/port-1.jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-video-camera" aria-hidden="true"></i> 03:32</span>
+                            </div>
+                            <div class="col-md-2 img-thumbnail-intro">
+                                <img src="assets/images/portfolio/port-2.jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-picture-o" aria-hidden="true"></i> 2Mb</span>
+                            </div>
+                            
+                            
+                        </div><!-- /.row -->
+                        <div class="row">
+                            
+                            <div class="col-md-2 img-thumbnail-intro">
+                                <img src="assets/images/portfolio/port-1.jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-video-camera" aria-hidden="true"></i> 03:32</span>
+                            </div>
+                            <div class="col-md-2 img-thumbnail-intro">
+                                <img src="assets/images/portfolio/port-2.jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-picture-o" aria-hidden="true"></i> 2Mb</span>
+                            </div>
+                            <div class="col-md-2 img-thumbnail-intro">
+                                <img src="assets/images/portfolio/port-1.jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-video-camera" aria-hidden="true"></i> 03:32</span>
+                            </div>
+                            <div class="col-md-2 img-thumbnail-intro">
+                                <img src="assets/images/portfolio/port-2.jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-picture-o" aria-hidden="true"></i> 2Mb</span>
+                            </div>
+                            <div class="col-md-2 img-thumbnail-intro">
+                                <img src="assets/images/portfolio/port-1.jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-video-camera" aria-hidden="true"></i> 03:32</span>
+                            </div>
+                            <div class="col-md-2 img-thumbnail-intro">
+                                <img src="assets/images/portfolio/port-2.jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-picture-o" aria-hidden="true"></i> 2Mb</span>
+                            </div>
+                            
+                            
+                        </div><!-- /.row -->
+                        <div class="row">
+                            
+                            <div class="col-md-2 img-thumbnail-intro">
+                                <img src="assets/images/portfolio/port-1.jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-video-camera" aria-hidden="true"></i> 03:32</span>
+                            </div>
+                            <div class="col-md-2 img-thumbnail-intro">
+                                <img src="assets/images/portfolio/port-2.jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-picture-o" aria-hidden="true"></i> 2Mb</span>
+                            </div>
+                            <div class="col-md-2 img-thumbnail-intro">
+                                <img src="assets/images/portfolio/port-1.jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-video-camera" aria-hidden="true"></i> 03:32</span>
+                            </div>
+                            <div class="col-md-2 img-thumbnail-intro">
+                                <img src="assets/images/portfolio/port-2.jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-picture-o" aria-hidden="true"></i> 2Mb</span>
+                            </div>
+                            <div class="col-md-2 img-thumbnail-intro">
+                                <img src="assets/images/portfolio/port-1.jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-video-camera" aria-hidden="true"></i> 03:32</span>
+                            </div>
+                            <div class="col-md-2 img-thumbnail-intro">
+                                <img src="assets/images/portfolio/port-2.jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-picture-o" aria-hidden="true"></i> 2Mb</span>
+                            </div>
+                            
+                            
+                        </div><!-- /.row -->
                     </div>
-                    <div class="col-md-6">
-                        <img src="assets/images/portfolio/port-2.jpg" class="img-responsive" alt="..">
+                    <div class="play-file" style="display: none">
+                        <iframe id="ytplayer" type="text/html" width="640" height="360"
+  src="http://www.youtube.com/embed/M7lc1UVf-VE?autoplay=1&origin=http://example.com"
+  frameborder="0"/></iframe>
                     </div>
-                    
-                </div><!-- /.row -->
+                        
             </div>                
         </div>
     </div>
@@ -242,136 +328,45 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-title text-center">
-                        <h2>Banco de Imagens</h2>
+                        <h2>Nossos serviços</h2>
                         <p>Encontre o que procura!</p>
                     </div>
                 </div>
             </div>
             <div class="row" style="margin-bottom: 20px">
-                <div class="col-md-12">
-                        <div class="container">
-                            <div class="row">    
-                                <div class="col-xs-8 col-xs-offset-2">
-                                    <div class="input-group">
-                                        <div class="input-group-btn search-panel">
-                                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                                                <span id="search_concept">Filter by</span> <span class="caret"></span>
-                                            </button>
-                                            <ul class="dropdown-menu" role="menu">
-                                              <li><a href="#contains">Contains</a></li>
-                                              <li><a href="#its_equal">It's equal</a></li>
-                                              <li><a href="#greather_than">Greather than ></a></li>
-                                              <li><a href="#less_than">Less than < </a></li>
-                                              <li class="divider"></li>
-                                              <li><a href="#all">Anything</a></li>
-                                            </ul>
-                                        </div>
-                                        <input type="hidden" name="search_param" value="all" id="search_param">         
-                                        <input type="text" class="form-control" name="x" placeholder="Search term...">
-                                        <span class="input-group-btn">
-                                            <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    
-                </div>
+               
             </div>
             <div class="row">
-                <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="service waves-effect">
                         <i class="fa fa-magic"></i>
                         <div class="border"></div>
                         <div class="service-content">
-                            <h4>Web Design</h4>
+                            <h4>Imagens Aéreas</h4>
                             <p>Duis aute irure dolor inreprehen derit voluptate velit esse cillum dolore fugiat nulla pariatur reprehenderit</p>
                         </div>
                     </div>
                 </div><!-- /.col-md-3 -->
-                <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="service waves-effect">
                         <i class="fa fa-gift"></i>
                         <div class="border"></div>
                         <div class="service-content">
-                            <h4>Graphics Design</h4>
+                            <h4>Imagens Subaquáticas</h4>
                             <p>Duis aute irure dolor inreprehen derit voluptate velit esse cillum dolore fugiat nulla pariatur reprehenderit</p>
                         </div>
                     </div>
                 </div><!-- /.col-md-3 -->
-                <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="service waves-effect">
                         <i class="fa fa-wordpress"></i>
                         <div class="border"></div>
                         <div class="service-content">
-                            <h4>WordPress Theme</h4>
+                            <h4>Timelapse</h4>
                             <p>Duis aute irure dolor inreprehen derit voluptate velit esse cillum dolore fugiat nulla pariatur reprehenderit</p>
                         </div>
                     </div>
                 </div><!-- /.col-md-3 -->
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="service waves-effect">
-                        <i class="fa fa-plug"></i>
-                        <div class="border"></div>
-                        <div class="service-content">
-                            <h4>WordPress Plugin</h4>
-                            <p>Duis aute irure dolor inreprehen derit voluptate velit esse cillum dolore fugiat nulla pariatur reprehenderit</p>
-                        </div>
-                    </div>
-                </div><!-- /.col-md-3 -->
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="service waves-effect">
-                        <i class="fa fa-joomla"></i>
-                        <div class="border"></div>
-                        <div class="service-content">
-                            <h4>Joomla Template</h4>
-                            <p>Duis aute irure dolor inreprehen derit voluptate velit esse cillum dolore fugiat nulla pariatur reprehenderit</p>
-                        </div>
-                    </div>
-                </div><!-- /.col-md-3 -->
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="service waves-effect">
-                        <i class="fa fa-cube"></i>
-                        <div class="border"></div>
-                        <div class="service-content">
-                            <h4>Joomla Extension</h4>
-                            <p>Duis aute irure dolor inreprehen derit voluptate velit esse cillum dolore fugiat nulla pariatur reprehenderit</p>
-                        </div>
-                    </div>
-                </div><!-- /.col-md-3 -->
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="service waves-effect">
-                        <i class="fa fa-css3"></i>
-                        <div class="border"></div>
-                        <div class="service-content">
-                            <h4>Bootstrap Template</h4>
-                            <p>Duis aute irure dolor inreprehen derit voluptate velit esse cillum dolore fugiat nulla pariatur reprehenderit</p>
-                        </div>
-                    </div>
-                </div><!-- /.col-md-3 -->
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="service waves-effect">
-                        <i class="fa fa-umbrella"></i>
-                        <div class="border"></div>
-                        <div class="service-content">
-                            <h4>24/7 Support</h4>
-                            <p>Duis aute irure dolor inreprehen derit voluptate velit esse cillum dolore fugiat nulla pariatur reprehenderit</p>
-                        </div>
-                    </div>
-                </div><!-- /.col-md-3 -->
-            </div>
-            <div class="row">
-                <div class="container" style="width: auto; display: table;">
-                    <ul class="pagination">
-                      <li class="disabled"><a href="#">«</a></li>
-                      <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
-                      <li><a href="#">2</a></li>
-                      <li><a href="#">3</a></li>
-                      <li><a href="#">4</a></li>
-                      <li><a href="#">5</a></li>
-                      <li><a href="#">»</a></li>
-                    </ul>
-                </div>                
             </div>
         </div>
     </section>
@@ -383,32 +378,25 @@
     <section class="fun-facts">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="col-xs-12 col-sm-6 col-md-4">
                       <div class="counter-item waves-effect">
                         <i class="fa fa-cloud-upload"></i>
                         <div class="timer" id="item1" data-to="991" data-speed="5000"></div>
-                        <h5>Files uploaded</h5>                               
+                        <h5>Vídeos e Imagens</h5>                               
                       </div>
                     </div>  
-                    <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="col-xs-12 col-sm-6 col-md-4">
                       <div class="counter-item waves-effect">
                         <i class="fa fa-check"></i>
                         <div class="timer" id="item2" data-to="7394" data-speed="5000"></div>
-                        <h5>Projects completed</h5>                               
+                        <h5>Projetos</h5>                               
                       </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-3">
-                      <div class="counter-item waves-effect">
-                        <i class="fa fa-code"></i>
-                        <div class="timer" id="item3" data-to="18745" data-speed="5000"></div>
-                        <h5>Lines of code written</h5>                               
-                      </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="col-xs-12 col-sm-6 col-md-4">
                       <div class="counter-item waves-effect">
                         <i class="fa fa-male"></i>
                         <div class="timer" id="item4" data-to="8423" data-speed="5000"></div>
-                        <h5>Happy clients</h5>                               
+                        <h5>Clientes</h5>                               
                       </div>
                     </div>
             </div>
@@ -433,51 +421,7 @@
     
     
     <!-- Start Latest News Section -->
-    <section id="latest-news" class="latest-news-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-title text-center">
-                        <h2>Atividades e Eventos</h2>
-                        <p>Vídeos e imagens aéreas</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="latest-news">
-                    <div class="col-md-4 col-sm-4">
-                        <div class="latest-post waves-effect">
-                            <img src="assets/images/post-1.jpg" class="img-responsive" alt="">
-                            <h4><a href="#">Standard Post with Image</a></h4>
-                            
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                            <a class="btn btn-primary">Read More</a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4">
-                        <div class="latest-post waves-effect">
-                            <img src="assets/images/post-2.jpg" class="img-responsive" alt="">
-                            <h4><a href="#">Standard Post with Image</a></h4>
-                            
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                            <a class="btn btn-primary">Read More</a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4">
-                        <div class="latest-post waves-effect">
-                            <img src="assets/images/post-3.jpg" class="img-responsive" alt="">
-                            <h4><a href="#">Standard Post with Image</a></h4>
-                            
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                            <a class="btn btn-primary">Read More</a>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Latest News Section -->
+   
     
     
     
@@ -540,8 +484,8 @@
             <h4>Contact info</h4>
             <ul>
                 <li><strong>E-mail :</strong> contato@navdrone.com.br</li>
-                <li><strong>Telefone :</strong> +8801-6778776</li>
-                <li><strong>Celular :</strong> +8801-45565378</li>                
+                <li><strong>Fone 1 :</strong> (47) 99181-1959</li>
+                <li><strong>Fone 2 :</strong> (47) 99943-5794</li>                
             </ul>
         </div>
     </div>

@@ -939,11 +939,15 @@ and (min-width : 551px){
 }
 
 .portfolio-caption a.link-1 i {
-    left: 30%;
+    left: 42%;
 }
 
 .portfolio-caption a.link-2 i {
     left: 50%;
+}
+
+.img-thumbnail-intro{
+    cursor: pointer;
 }
 
 
@@ -1242,6 +1246,17 @@ and (min-width : 551px){
     color: #fff;
     text-align: center;
     padding: 80px 0;
+}
+
+.background-10-vezes{
+    background: url(../images/parallax/DJI_0009.JPG);
+    /*background: url(../images/parallax/call-to.jpg);*/
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 90%;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;    
 }
 
 .call-to-action h1 {

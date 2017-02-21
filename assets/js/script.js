@@ -12,7 +12,13 @@ $(window).load(function () {
         var concept = $(this).text();
         $('.search-panel span#search_concept').text(concept);
         $('.input-group #search_param').val(param);
-    });    
+    });  
+
+    $('.img-thumbnail-intro').click(function(){
+        $(".intro-album .row").fadeOut(function(){
+            
+        });
+    });
 });
 
 
