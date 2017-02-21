@@ -147,7 +147,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="portfolio-item">
+                            <div class="portfolio-itemportfolio-item">
                                 <img src="assets/images/portfolio/port-6.jpg" class="img-responsive" alt="" />
                                 <div class="portfolio-caption">
                                     <h4>Título do Álbum</h4>
@@ -311,8 +311,8 @@
                     </div>
                     <div class="play-file" style="display: none">
                         <iframe id="ytplayer" type="text/html" width="640" height="360"
-  src="http://www.youtube.com/embed/M7lc1UVf-VE?autoplay=1&origin=http://example.com"
-  frameborder="0"/></iframe>
+                          src="http://www.youtube.com/embed/M7lc1UVf-VE"
+                          frameborder="0"/></iframe>
                     </div>
                         
             </div>                

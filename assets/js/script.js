@@ -16,7 +16,7 @@ $(window).load(function () {
 
     $('.img-thumbnail-intro').click(function(){
         $(".intro-album .row").fadeOut(function(){
-            
+            $(".play-file").show();
         });
     });
 });
