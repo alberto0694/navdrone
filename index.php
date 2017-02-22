@@ -30,7 +30,9 @@
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
     <link rel="stylesheet" type="text/css" href="assets/css/color/blue.css" title="blue">
     <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/css/easyzoom.css" />
     <script src="assets/js/modernizr.custom.js"></script>
+
 </head>
 
 <body class="index">
@@ -46,6 +48,7 @@
 <!-- 				<a href="#latest-news" class="page-scroll waves-effect"><i class="fa fa-fw fa-mortar-board"></i><span>Atividades e Eventos</span></a> -->
 				
 				<a href="#contact" class="page-scroll waves-effect"><i class="fa fa-fw fa-envelope-o"></i><span>Contato</span></a>
+                <a href="admin" class="page-scroll waves-effect"><i class="fa fa-fw fa-envelope-o"></i><span>Administrativo</span></a>
 			</div>
 		</nav>
 		<button class="close-button" id="close-button">Fechar</button>
@@ -59,9 +62,12 @@
     <!-- ***************************************************************** -->
     <section class="header" id="home">
         <div class="container">
+            <video autoplay loop id="video-background" muted>
+                <source src="assets/images/video.mp4" type="video/mp4">
+            </video>
             <div class="intro-text">
-                <h1><span>NAVDRONE</span></h1>
-                <p>O Maior banco de mídia da região</br>Tiramos fotos aéreas e de alta definição.</p>
+                <h1><span><img src="assets/images/navdrone.png" alt=""></span></h1>
+                <p>Imagens Aéreas, subaquáticas e timelapse</p>
             </div>
         </div>
     </section>
@@ -74,6 +80,17 @@
                             <p>Vestibulum at nibh eget ligula iaculis fringilla. Donec quis nulla ante. Phasellus blandit eget lacus eu congue. Praesent id massa sit amet nisi semper dapibus. In faucibus placerat placerat. Sed nec maximus sem. Curabitur nec tortor viverra, vestibulum ante in, maximus sapien.
                             Suspendisse suscipit erat quis mauris imperdiet lobortis. Quisque odio lorem, fermentum eget erat eu, facilisis hendrerit diam. Sed vestibulum quis enim sed porta.</p>
                         </div>
+                        <h3 align="center">Credenciado por:</h3>
+                        <div class="col-md-4">
+                            <img style="display:block; margin: 0 auto" src="assets/images/anac.png" alt="">
+                        </div>
+                        <div class="col-md-4">
+                            <img style="display:block; margin: 0 auto" src="assets/images/drone.png" alt="">
+                        </div>
+                        <div class="col-md-4">
+                            <img style="display:block; margin: 0 auto" src="assets/images/anatel.png" alt="">
+                        </div>
+
                 </div>
             </div>
                       
@@ -147,7 +164,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="portfolio-itemportfolio-item">
+                            <div class="portfolio-item portfolio-item">
                                 <img src="assets/images/portfolio/port-6.jpg" class="img-responsive" alt="" />
                                 <div class="portfolio-caption">
                                     <h4>Título do Álbum</h4>
@@ -188,131 +205,160 @@
                 <div class="row">
                     <div class="section-title text-center">
                         <h2>Título do Álbum</h2>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate</p>
+                        <p>Descrição do Álbum</p>
                     </div>
                 </div>
                     <div class="intro-album">
                         <div class="row">
                             
-                            <div class="col-md-2 img-thumbnail-intro">
+                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('V')">
                                 <img src="assets/images/portfolio/port-1.jpg" class="img-responsive" alt="..">
                                 <span><i class="fa fa-video-camera" aria-hidden="true"></i> 03:32</span>
                             </div>
-                            <div class="col-md-2 img-thumbnail-intro">
+                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('I')">
                                 <img src="assets/images/portfolio/port-2.jpg" class="img-responsive" alt="..">
                                 <span><i class="fa fa-picture-o" aria-hidden="true"></i> 2Mb</span>
                             </div>
-                            <div class="col-md-2 img-thumbnail-intro">
+                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('V')">
                                 <img src="assets/images/portfolio/port-1.jpg" class="img-responsive" alt="..">
                                 <span><i class="fa fa-video-camera" aria-hidden="true"></i> 03:32</span>
                             </div>
-                            <div class="col-md-2 img-thumbnail-intro">
+                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('I')">
                                 <img src="assets/images/portfolio/port-2.jpg" class="img-responsive" alt="..">
                                 <span><i class="fa fa-picture-o" aria-hidden="true"></i> 2Mb</span>
                             </div>
-                            <div class="col-md-2 img-thumbnail-intro">
+                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('V')">
                                 <img src="assets/images/portfolio/port-1.jpg" class="img-responsive" alt="..">
                                 <span><i class="fa fa-video-camera" aria-hidden="true"></i> 03:32</span>
                             </div>
-                            <div class="col-md-2 img-thumbnail-intro">
+                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('I')">
                                 <img src="assets/images/portfolio/port-2.jpg" class="img-responsive" alt="..">
                                 <span><i class="fa fa-picture-o" aria-hidden="true"></i> 2Mb</span>
+                            </div>                            
+                            
+                        </div><!-- /.row -->
+                        <div class="row">
+                            
+                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('V')">
+                                <img src="assets/images/portfolio/port-1.jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-video-camera" aria-hidden="true"></i> 03:32</span>
                             </div>
+                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('I')">
+                                <img src="assets/images/portfolio/port-2.jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-picture-o" aria-hidden="true"></i> 2Mb</span>
+                            </div>  
+                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('V')">
+                                <img src="assets/images/portfolio/port-1.jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-video-camera" aria-hidden="true"></i> 03:32</span>
+                            </div>
+                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('I')">
+                                <img src="assets/images/portfolio/port-2.jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-picture-o" aria-hidden="true"></i> 2Mb</span>
+                            </div>  
+                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('V')">
+                                <img src="assets/images/portfolio/port-1.jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-video-camera" aria-hidden="true"></i> 03:32</span>
+                            </div>
+                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('I')">
+                                <img src="assets/images/portfolio/port-2.jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-picture-o" aria-hidden="true"></i> 2Mb</span>
+                            </div>  
                             
                             
                         </div><!-- /.row -->
                         <div class="row">
                             
-                            <div class="col-md-2 img-thumbnail-intro">
+                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('V')">
                                 <img src="assets/images/portfolio/port-1.jpg" class="img-responsive" alt="..">
                                 <span><i class="fa fa-video-camera" aria-hidden="true"></i> 03:32</span>
                             </div>
-                            <div class="col-md-2 img-thumbnail-intro">
+                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('I')">
                                 <img src="assets/images/portfolio/port-2.jpg" class="img-responsive" alt="..">
                                 <span><i class="fa fa-picture-o" aria-hidden="true"></i> 2Mb</span>
-                            </div>
-                            <div class="col-md-2 img-thumbnail-intro">
+                            </div>  
+                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('V')">
                                 <img src="assets/images/portfolio/port-1.jpg" class="img-responsive" alt="..">
                                 <span><i class="fa fa-video-camera" aria-hidden="true"></i> 03:32</span>
                             </div>
-                            <div class="col-md-2 img-thumbnail-intro">
+                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('I')">
                                 <img src="assets/images/portfolio/port-2.jpg" class="img-responsive" alt="..">
                                 <span><i class="fa fa-picture-o" aria-hidden="true"></i> 2Mb</span>
-                            </div>
-                            <div class="col-md-2 img-thumbnail-intro">
+                            </div>  
+                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('V')">
                                 <img src="assets/images/portfolio/port-1.jpg" class="img-responsive" alt="..">
                                 <span><i class="fa fa-video-camera" aria-hidden="true"></i> 03:32</span>
                             </div>
-                            <div class="col-md-2 img-thumbnail-intro">
+                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('I')">
                                 <img src="assets/images/portfolio/port-2.jpg" class="img-responsive" alt="..">
                                 <span><i class="fa fa-picture-o" aria-hidden="true"></i> 2Mb</span>
-                            </div>
+                            </div>  
                             
                             
                         </div><!-- /.row -->
                         <div class="row">
                             
-                            <div class="col-md-2 img-thumbnail-intro">
+                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('V')">
                                 <img src="assets/images/portfolio/port-1.jpg" class="img-responsive" alt="..">
                                 <span><i class="fa fa-video-camera" aria-hidden="true"></i> 03:32</span>
                             </div>
-                            <div class="col-md-2 img-thumbnail-intro">
+                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('I')">
                                 <img src="assets/images/portfolio/port-2.jpg" class="img-responsive" alt="..">
                                 <span><i class="fa fa-picture-o" aria-hidden="true"></i> 2Mb</span>
-                            </div>
-                            <div class="col-md-2 img-thumbnail-intro">
+                            </div>  
+                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('V')">
                                 <img src="assets/images/portfolio/port-1.jpg" class="img-responsive" alt="..">
                                 <span><i class="fa fa-video-camera" aria-hidden="true"></i> 03:32</span>
                             </div>
-                            <div class="col-md-2 img-thumbnail-intro">
+                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('I')">
                                 <img src="assets/images/portfolio/port-2.jpg" class="img-responsive" alt="..">
                                 <span><i class="fa fa-picture-o" aria-hidden="true"></i> 2Mb</span>
-                            </div>
-                            <div class="col-md-2 img-thumbnail-intro">
+                            </div>  
+                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('V')">
                                 <img src="assets/images/portfolio/port-1.jpg" class="img-responsive" alt="..">
                                 <span><i class="fa fa-video-camera" aria-hidden="true"></i> 03:32</span>
                             </div>
-                            <div class="col-md-2 img-thumbnail-intro">
+                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('I')">
                                 <img src="assets/images/portfolio/port-2.jpg" class="img-responsive" alt="..">
                                 <span><i class="fa fa-picture-o" aria-hidden="true"></i> 2Mb</span>
-                            </div>
-                            
-                            
-                        </div><!-- /.row -->
-                        <div class="row">
-                            
-                            <div class="col-md-2 img-thumbnail-intro">
+                            </div>  
+                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('V')">
                                 <img src="assets/images/portfolio/port-1.jpg" class="img-responsive" alt="..">
                                 <span><i class="fa fa-video-camera" aria-hidden="true"></i> 03:32</span>
                             </div>
-                            <div class="col-md-2 img-thumbnail-intro">
+                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('I')">
                                 <img src="assets/images/portfolio/port-2.jpg" class="img-responsive" alt="..">
                                 <span><i class="fa fa-picture-o" aria-hidden="true"></i> 2Mb</span>
-                            </div>
-                            <div class="col-md-2 img-thumbnail-intro">
-                                <img src="assets/images/portfolio/port-1.jpg" class="img-responsive" alt="..">
-                                <span><i class="fa fa-video-camera" aria-hidden="true"></i> 03:32</span>
-                            </div>
-                            <div class="col-md-2 img-thumbnail-intro">
-                                <img src="assets/images/portfolio/port-2.jpg" class="img-responsive" alt="..">
-                                <span><i class="fa fa-picture-o" aria-hidden="true"></i> 2Mb</span>
-                            </div>
-                            <div class="col-md-2 img-thumbnail-intro">
-                                <img src="assets/images/portfolio/port-1.jpg" class="img-responsive" alt="..">
-                                <span><i class="fa fa-video-camera" aria-hidden="true"></i> 03:32</span>
-                            </div>
-                            <div class="col-md-2 img-thumbnail-intro">
-                                <img src="assets/images/portfolio/port-2.jpg" class="img-responsive" alt="..">
-                                <span><i class="fa fa-picture-o" aria-hidden="true"></i> 2Mb</span>
-                            </div>
-                            
-                            
+                            </div>  
                         </div><!-- /.row -->
                     </div>
+
                     <div class="play-file" style="display: none">
-                        <iframe id="ytplayer" type="text/html" width="640" height="360"
-                          src="http://www.youtube.com/embed/M7lc1UVf-VE"
-                          frameborder="0"/></iframe>
+                        <h1 align="center" class="back-midia" style="text-align: center; font-size:26pt">
+                                <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                        </h1>
+                        <div class="midia-video" style="display: none">
+                            <iframe id="ytplayer" type="text/html" width="420" height="250"
+                              src="http://www.youtube.com/embed/M7lc1UVf-VE"
+                              frameborder="0"/>                            
+                            </iframe>                            
+                        </div>
+                        <div class="midia-imagem" style="display: none">
+
+
+                        <!-- Placeholder for demo purposes only -->
+                        <div class="col-md-6" style="float: right; background: #EEE;"></div>
+
+                        <div class="col-md-6 easyzoom easyzoom--adjacent">
+                            <a href="assets/images/banner.jpg">
+                                <img style="    
+                                  width: 100%;
+                                  height: auto;" src="assets/images/standart.jpg" alt="" width="310" height="400" />
+                            </a>
+                        </div>
+
+
+                        </div>
+                       
                     </div>
                         
             </div>                
@@ -410,8 +456,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1>Awesome <strong>Navigator</strong> Template is ready for <br> Business, Agency, Landing or Creative Portfolio</h1>
-                    <button type="submit" class="btn btn-primary waves-effect">Buy This Template</button>
+                    <h1>A  NAVDRONE auxilia você, sua empresa e órgãos públicos no combate a <strong>Dengue, Chicungunha e Zica!</strong> 
                 </div>
             </div>
         </div>
@@ -513,12 +558,7 @@
         </div>
     </footer>
     <!-- End Footer Section -->
-    
-    
-    
-    
-    
-    
+
     <!-- jQuery Version 2.1.3 -->
     <script src="assets/js/jquery-2.1.3.min.js"></script>
 
@@ -540,6 +580,7 @@
     <!-- Materialize js -->
     <script src="assets/js/material.js"></script>
     <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.elevateZoom-3.0.8.min.js"></script>
 
     <!-- Custom JavaScript -->
     <script src="assets/js/script.js"></script>

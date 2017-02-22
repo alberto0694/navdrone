@@ -14,12 +14,45 @@ $(window).load(function () {
         $('.input-group #search_param').val(param);
     });  
 
-    $('.img-thumbnail-intro').click(function(){
-        $(".intro-album .row").fadeOut(function(){
-            $(".play-file").show();
+
+
+
+    $(".back-midia").click(function(){
+        $(".play-file").fadeOut(function(){
+            $(".intro-album .row").fadeIn();
+            $(".midia-video, .midia-imagem").hide();
         });
-    });
+    });    
+
+    var $easyzoom = $('.easyzoom').easyZoom();
+
+    // Get an instance API
+    var api = $easyzoom.data('easyZoom');
 });
+
+
+function chamaMidia($cod_midia){
+    $(".intro-album .row").fadeOut(function(){
+        $(".play-file").fadeIn(function(){
+            if($cod_midia == 'V'){
+                $(".midia-video").fadeIn();
+            }else{
+                $(".midia-imagem").fadeIn();
+            }  
+        });
+
+    });
+
+}
+
+
+function chamaAlbum($cod_album){
+    //fazer requisição ajax com $cod_album
+
+
+
+
+}
 
 
 

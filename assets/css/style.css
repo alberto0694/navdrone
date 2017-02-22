@@ -454,14 +454,14 @@ li {
 .header {
     text-align: center;
     color: #fff;
-    background-attachment: scroll;
+/*    background-attachment: scroll;
     background-image: url(../images/banner.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover;*/
 }
 
 .intro-text {
@@ -1239,7 +1239,7 @@ and (min-width : 551px){
 
 
 .call-to-action {
-    background: url(../images/parallax/call-to.jpg);
+    background: url(../images/parallax/back-dengue.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 90%;
@@ -1685,8 +1685,16 @@ footer {
     transform: rotate(90deg);
 }
 
-
-
-
+#video-background {
+/*  making the video fullscreen  */
+  position: absolute;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+}
 
 
