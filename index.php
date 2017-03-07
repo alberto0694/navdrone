@@ -25,18 +25,61 @@
     <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css" >
     <link rel="stylesheet" type="text/css" href="assets/css/owl.theme.css" >
     <link rel="stylesheet" type="text/css" href="assets/css/owl.transitions.css" >
-    <link rel="stylesheet" type="text/css" href="assets/css/material.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/material.css">    
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
     <link rel="stylesheet" type="text/css" href="assets/css/color/blue.css" title="blue">
     <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="assets/css/easyzoom.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <script src="assets/js/modernizr.custom.js"></script>
 
 </head>
 
 <body class="index">
-    
+
+<!-- 
+    ############ MODAIS ######################
+ -->
+
+         <!-- Modal -->
+<div id="areas-atuacao" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- 
+    ############ MODAIS ######################
+ -->
+
+    <div class="menu-float">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="footer-social text-center">
+                    <ul>
+                        <li class="waves-effect"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li class="waves-effect"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <h4><i class="fa fa-fw fa-envelope-o"></i><a id="#contact" href="#contact">Entre em Contato</a></h4>
+            </div>
+        </div>
+    </div>
     <!-- Start Off=Canvas Navigation Section -->
     <div class="menu-wrap">
 		<nav class="menu">
@@ -45,29 +88,17 @@
 				<a href="#about-us" class="page-scroll waves-effect"><i class="fa fa-fw fa-user"></i><span>Sobre Nós</span></a>
 				<a href="#portfolio" class="page-scroll waves-effect"><i class="fa fa-fw fa-bell-o"></i><span>Portfolio</span></a>
 				<a href="#service" class="page-scroll waves-effect"><i class="fa fa-fw fa-bar-chart-o"></i><span>Serviços</span></a>
-<!-- 				<a href="#latest-news" class="page-scroll waves-effect"><i class="fa fa-fw fa-mortar-board"></i><span>Atividades e Eventos</span></a> -->
-				
 				<a href="#contact" class="page-scroll waves-effect"><i class="fa fa-fw fa-envelope-o"></i><span>Contato</span></a>
-                <a href="admin" class="page-scroll waves-effect"><i class="fa fa-fw fa-envelope-o"></i><span>Administrativo</span></a>
 			</div>
 		</nav>
 		<button class="close-button" id="close-button">Fechar</button>
 	</div>
 	<button class="menu-button waves-effect" id="open-button">Abrir</button>
-    <!-- End Off-Canvas Navigation Section -->
-    
-    
-    <!-- ***************************************************************** -->
-    <!-- Start Header Section -->
-    <!-- ***************************************************************** -->
     <section class="header" id="home">
         <div class="container">
-            <video autoplay loop id="video-background" muted>
-                <source src="assets/images/video.mp4" type="video/mp4">
-            </video>
             <div class="intro-text">
                 <h1><span><img src="assets/images/navdrone.png" alt=""></span></h1>
-                <p>Imagens Aéreas, subaquáticas e timelapse</p>
+                <p id="slogan">Filmagens e fotos aéreas com drone em alta definição</p>
             </div>
         </div>
     </section>
@@ -80,17 +111,121 @@
                             <p>Vestibulum at nibh eget ligula iaculis fringilla. Donec quis nulla ante. Phasellus blandit eget lacus eu congue. Praesent id massa sit amet nisi semper dapibus. In faucibus placerat placerat. Sed nec maximus sem. Curabitur nec tortor viverra, vestibulum ante in, maximus sapien.
                             Suspendisse suscipit erat quis mauris imperdiet lobortis. Quisque odio lorem, fermentum eget erat eu, facilisis hendrerit diam. Sed vestibulum quis enim sed porta.</p>
                         </div>
-                        <h3 align="center">Credenciado por:</h3>
-                        <div class="col-md-4">
-                            <img style="display:block; margin: 0 auto" src="assets/images/anac.png" alt="">
-                        </div>
-                        <div class="col-md-4">
-                            <img style="display:block; margin: 0 auto" src="assets/images/drone.png" alt="">
-                        </div>
-                        <div class="col-md-4">
-                            <img style="display:block; margin: 0 auto" src="assets/images/anatel.png" alt="">
-                        </div>
 
+
+                </div>
+                <div class="row">
+                      <div class="col-sm-6 col-md-3">
+                            <div class="thumbnail">
+                                  <img src="assets/images/IMOBILIARIO.jpg" alt="...">
+                                  <div class="caption">
+                                    <h3>INDÚSTRIA E CONSTRUÇÃO</h3>
+                                    <p>...</p>
+                                    <p><a  class="btn btn-primary" data-toggle="modal" data-target="#areas-atuacao" role="button">Button</a> </p>
+
+                                  </div>
+                            </div>
+                      </div>
+                      <div class="col-sm-6 col-md-3">
+                            <div class="thumbnail">
+                                  <img src="assets/images/IMOBILIARIO.jpg" alt="...">
+                                  <div class="caption">
+                                    <h3>PREFEITURA</h3>
+                                    <p>...</p>
+                                    <p><a  class="btn btn-primary" data-toggle="modal" data-target="#areas-atuacao" role="button">Button</a> </p>
+                                  </div>
+                            </div>
+                      </div>    
+                      <div class="col-sm-6 col-md-3">
+                            <div class="thumbnail">
+                                  <img src="assets/images/IMOBILIARIO.jpg" alt="...">
+                                  <div class="caption">
+                                    <h3>AGRICULTURA E PECUÁRIA</h3>
+                                    <p>...</p>
+                                    <p><a  class="btn btn-primary" data-toggle="modal" data-target="#areas-atuacao" role="button">Button</a> </p>
+                                  </div>
+                            </div>
+                      </div> 
+                      <div class="col-sm-6 col-md-3">
+                            <div class="thumbnail">
+                                  <img src="assets/images/IMOBILIARIO.jpg" alt="...">
+                                  <div class="caption">
+                                    <h3>CAMPANHAS PUBLICITÁRIAS</h3>
+                                    <p>...</p>
+                                    <p><a  class="btn btn-primary" data-toggle="modal" data-target="#areas-atuacao" role="button">Button</a> </p>
+                                  </div>
+                            </div>
+                      </div> 
+                      <div class="col-sm-6 col-md-3">
+                            <div class="thumbnail">
+                                  <img src="assets/images/IMOBILIARIO.jpg" alt="...">
+                                  <div class="caption">
+                                    <h3>LOTEAMENTOS</h3>
+                                    <p>...</p>
+                                    <p><a  class="btn btn-primary" data-toggle="modal" data-target="#areas-atuacao" role="button">Button</a> </p>
+                                  </div>
+                            </div>
+                      </div> 
+                      <div class="col-sm-6 col-md-3">
+                            <div class="thumbnail">
+                                  <img src="assets/images/IMOBILIARIO.jpg" alt="...">
+                                  <div class="caption">
+                                    <h3>ESTALEIROS</h3>
+                                    <p>...</p>
+                                    <p><a  class="btn btn-primary" data-toggle="modal" data-target="#areas-atuacao" role="button">Button</a> </p>
+                                  </div>
+                            </div>
+                      </div> 
+                      <div class="col-sm-6 col-md-3">
+                            <div class="thumbnail">
+                                  <img src="assets/images/IMOBILIARIO.jpg" alt="...">
+                                  <div class="caption">
+                                    <h3>EVENTOS</h3>
+                                    <p>...</p>
+                                    <p><a  class="btn btn-primary" data-toggle="modal" data-target="#areas-atuacao" role="button">Button</a> </p>
+                                  </div>
+                            </div>
+                      </div> 
+                      <div class="col-sm-6 col-md-3">
+                            <div class="thumbnail">
+                                  <img src="assets/images/IMOBILIARIO.jpg" alt="...">
+                                  <div class="caption">
+                                    <h3>IMOBILIÁRIO</h3>
+                                    <p>...</p>
+                                    <p><a  class="btn btn-primary" data-toggle="modal" data-target="#areas-atuacao" role="button">Button</a> </p>
+                                  </div>
+                            </div>
+                      </div> 
+                      <div class="col-sm-6 col-md-3">
+                            <div class="thumbnail">
+                                  <img src="assets/images/IMOBILIARIO.jpg" alt="...">
+                                  <div class="caption">
+                                    <h3>ESPORTES</h3>
+                                    <p>...</p>
+                                    <p><a  class="btn btn-primary" data-toggle="modal" data-target="#areas-atuacao" role="button">Button</a> </p>
+                                  </div>
+                            </div>
+                      </div>   
+                      <div class="col-sm-6 col-md-3">
+                            <div class="thumbnail">
+                                  <img src="assets/images/IMOBILIARIO.jpg" alt="...">
+                                  <div class="caption">
+                                    <h3>IMAGENS SUBAQUÁTICAS</h3>
+                                    <p>...</p>
+                                    <p><a  class="btn btn-primary" data-toggle="modal" data-target="#areas-atuacao" role="button">Button</a> </p>
+                                  </div>
+                            </div>
+                      </div> 
+                      <div class="col-sm-6 col-md-3">
+                            <div class="thumbnail">
+                                  <img src="assets/images/IMOBILIARIO.jpg" alt="...">
+                                  <div class="caption">
+                                    <h3>INSPEÇÃO SUBMERSA E FILMAGENS EM TEMPO REAL</h3>
+                                    <p>...</p>
+                                    <p><a  class="btn btn-primary" data-toggle="modal" data-target="#areas-atuacao" role="button">Button</a> </p>
+                                  </div>
+                            </div>
+                      </div>                 
                 </div>
             </div>
                       
@@ -123,85 +258,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    
-                    <!-- Start Portfolio items -->
-                    <ul id="portfolio-list">
-                        <li>
-                            <div class="portfolio-item">
-                                <img src="assets/images/portfolio/port-5.jpg" class="img-responsive" alt="" />
-                                <div class="portfolio-caption">
-                                    <h4>Título do Álbum</h4>
-                                    <a href="#portfolio-modal" data-toggle="modal" class="link-1"><i class="fa fa-magic"></i></a>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="portfolio-item">
-                                <img src="assets/images/portfolio/port-2.jpg" class="img-responsive" alt="" />
-                                <div class="portfolio-caption">
-                                    <h4>Título do Álbum</h4>
-                                    <a href="#portfolio-modal" data-toggle="modal" class="link-1"><i class="fa fa-magic"></i></a>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="portfolio-item">
-                                <img src="assets/images/portfolio/port-3.jpg" class="img-responsive" alt="" />
-                                <div class="portfolio-caption">
-                                    <h4>Título do Álbum</h4>
-                                    <a href="#portfolio-modal" data-toggle="modal" class="link-1"><i class="fa fa-magic"></i></a>
-                                    
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="portfolio-item">
-                                <img src="assets/images/portfolio/port-4.jpg" class="img-responsive" alt="" />
-                                <div class="portfolio-caption">
-                                    <h4>Título do Álbum</h4>
-                                    <a href="#portfolio-modal" data-toggle="modal" class="link-1"><i class="fa fa-magic"></i></a>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="portfolio-item portfolio-item">
-                                <img src="assets/images/portfolio/port-6.jpg" class="img-responsive" alt="" />
-                                <div class="portfolio-caption">
-                                    <h4>Título do Álbum</h4>
-                                    <a href="#portfolio-modal" data-toggle="modal" class="link-1"><i class="fa fa-magic"></i></a>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="portfolio-item">
-                                <img src="assets/images/portfolio/port-1.jpg" class="img-responsive" alt="" />
-                                <div class="portfolio-caption">
-                                    <h4>Título do Álbum</h4>
-                                    <a href="#portfolio-modal" data-toggle="modal" class="link-1"><i class="fa fa-magic"></i></a>
-                                </div>
-                            </div>
-                        </li>
-                        
-                            
-                    </ul>
-                    <!-- End Portfolio items -->
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Portfolio Section -->
-    
-    <!-- Start Portfolio Modal Section -->
-    <div class="section-modal modal fade" id="portfolio-modal" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            
-            <div class="container">
+                    <div class="container">
                 <div class="row">
                     <div class="section-title text-center">
                         <h2>Título do Álbum</h2>
@@ -361,15 +418,23 @@
                        
                     </div>
                         
-            </div>                
+            </div> 
+                        
+                            
+                    </ul>
+                    <!-- End Portfolio items -->
+                </div>
+            </div>
         </div>
-    </div>
-    <!-- End Portfolio Modal Section -->
+
+    </section>
+    <!-- End Portfolio Section -->
     
-    
+
     
     <!-- Start Service Section -->
     <section id="service" class="services-section">
+
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -383,36 +448,46 @@
                
             </div>
             <div class="row">
-                <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="service waves-effect">
-                        <i class="fa fa-magic"></i>
+                        <i class="fa fa-plane"></i>
                         <div class="border"></div>
                         <div class="service-content">
                             <h4>Imagens Aéreas</h4>
-                            <p>Duis aute irure dolor inreprehen derit voluptate velit esse cillum dolore fugiat nulla pariatur reprehenderit</p>
+                            <p><a  class="btn btn-primary" data-toggle="modal" data-target="#areas-atuacao" role="button">Button</a> </p>
                         </div>
                     </div>
                 </div><!-- /.col-md-3 -->
-                <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="service waves-effect">
-                        <i class="fa fa-gift"></i>
+                        <i class="fa fa-tint"></i>
                         <div class="border"></div>
                         <div class="service-content">
                             <h4>Imagens Subaquáticas</h4>
-                            <p>Duis aute irure dolor inreprehen derit voluptate velit esse cillum dolore fugiat nulla pariatur reprehenderit</p>
+                            <p><a  class="btn btn-primary" data-toggle="modal" data-target="#areas-atuacao" role="button">Button</a> </p>
                         </div>
                     </div>
                 </div><!-- /.col-md-3 -->
-                <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="service waves-effect">
-                        <i class="fa fa-wordpress"></i>
+                        <i class="fa fa-video-camera"></i>
                         <div class="border"></div>
                         <div class="service-content">
                             <h4>Timelapse</h4>
-                            <p>Duis aute irure dolor inreprehen derit voluptate velit esse cillum dolore fugiat nulla pariatur reprehenderit</p>
+                            <p><a  class="btn btn-primary" data-toggle="modal" data-target="#areas-atuacao" role="button">Button</a> </p>
                         </div>
                     </div>
                 </div><!-- /.col-md-3 -->
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service waves-effect">
+                        <i class="fa fa-users"></i>
+                        <div class="border"></div>
+                        <div class="service-content">
+                            <h4>Outros Serviços</h4>
+                            <p><a  class="btn btn-primary" data-toggle="modal" data-target="#areas-atuacao" role="button">Button</a> </p>                        
+                        </div>
+                    </div>
+                </div><!-- /.col-md-3 -->                
             </div>
         </div>
     </section>
@@ -449,28 +524,6 @@
         </div>
     </section>
     <!-- End Fun Facts Section -->
-    
-    
-    <!-- Start Call to Action Section -->
-    <section class="call-to-action">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1>A  NAVDRONE auxilia você, sua empresa e órgãos públicos no combate a <strong>Dengue, Chicungunha e Zica!</strong> 
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Call to Action Section -->
-    
-    
-    
-    <!-- Start Latest News Section -->
-   
-    
-    
-    
-    
     <!-- Start Contact Us Section -->
     <section id="contact" class="contact contact-section">
         <div class="container">
@@ -526,7 +579,7 @@
     <div class="google-map">
         <div id="map"></div>
         <div class="contact-info waves-effect">
-            <h4>Contact info</h4>
+            <h4>Contato</h4>
             <ul>
                 <li><strong>E-mail :</strong> contato@navdrone.com.br</li>
                 <li><strong>Fone 1 :</strong> (47) 99181-1959</li>
@@ -542,17 +595,39 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-xs-12">
-                    <span class="copyright"> NAVDRONE Imagens Aéreas - Desenvolvido por <a href="http://themefisher.com">---</a></span>
+                <div class="row">             
+                    <div class="col-md-12 col-xs-12">
+                        <div class="footer-social text-center">
+                            <ul>
+                                <li class="waves-effect"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li class="waves-effect"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>                    
                 </div>
-                <div class="col-md-4 col-xs-12">
-                    <div class="footer-social text-center">
-                        <ul>
-                            <li class="waves-effect"><a href="#"><i class="fa fa-instagram"></i></a></li>
-                            <li class="waves-effect"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        </ul>
+
+                <div class="row">
+                    <div class="col-md-12">
+                            <div class="col-md-9 col-md-offset-3">
+                                    <div class="text-center">
+                                        <div class="col-md-3">
+                                            <img style="display:block; margin: 0 auto" src="assets/images/anac.png" alt="">
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img style="display:block; margin: 0 auto" src="assets/images/drone.png" alt="">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img style="display:block; margin: 0 auto" src="assets/images/anatel.png" alt="">
+                                        </div>                          
+                                    </div>                        
+                            </div>                        
                     </div>
+
+
+                            
+
                 </div>
+
 
             </div>
         </div>

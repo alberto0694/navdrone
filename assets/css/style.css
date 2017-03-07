@@ -10,7 +10,7 @@ body {
     -webkit-font-smoothing: antialiased !important;
 }
 
-a {
+.menu-wrap a {
     color: #28ABE3;
 }
 
@@ -436,37 +436,22 @@ li {
 	transition-duration: 0.9s;
 }
 
-
-
-
-
-
-
-
-
-
-/*--------------------------------------------------*/
-/* Start Header Section                             */
-/*--------------------------------------------------*/
-
-
-
 .header {
     text-align: center;
     color: #fff;
-/*    background-attachment: scroll;
-    background-image: url(../images/banner.jpg);
+    background-attachment: scroll;
+    background-image: url(../images/background.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;*/
+    background-size: cover;
 }
 
 .intro-text {
     position: relative;
-    padding: 20% 0 15% 0;
+    padding: 10% 0 15% 0;
 }
 
 .header .intro-text h1 {    
@@ -506,15 +491,6 @@ li {
     padding: 15px 25px;
     font-size: 16px;
 }
-
-
-
-
-
-
-/*---------------------------------------------------------*/
-/* Start About Us Section                                  */
-/*---------------------------------------------------------*/
 
 .about-us-section-1 {
     padding-top: 100px;
@@ -558,19 +534,11 @@ li {
     margin: 0 40%;
 }
 
-
-
-/*-----------------------------------------*/
-/* Start Progress Bar Section
-/*-----------------------------------------*/
-
 #skill-section {
 	background-color: #fff;
 	box-shadow: 0 0 3px #666;
 	padding: 30px 0 30px 50px;
 }
-
-/* progress bar */
 
 .skill-graph {
     margin-bottom: 0px;
@@ -974,6 +942,7 @@ and (min-width : 551px){
 	box-shadow: 0 0 3px #ddd;
 	text-align: center;
     margin-bottom: 30px;
+    min-width: 200px;
 }
 
 .service i {
@@ -997,7 +966,7 @@ and (min-width : 551px){
 }
 
 .service h4 {
-    font-size: 15px;
+    font-size: 15pt;
     margin-bottom: 13px;
     color: #666;
     font-weight: 300;
@@ -1514,6 +1483,10 @@ footer {
     color: #999;
 }
 
+.footer-social{
+    margin-bottom: 30px;
+}
+
 .footer-social li {
     display: inline;
     padding: 0 10px;
@@ -1698,3 +1671,35 @@ footer {
 }
 
 
+.menu-float{
+    position: fixed;
+    display: block;
+    width: 200px;
+    height: 110px;
+    background: white;
+    bottom: 40px;
+    right: 10px;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    z-index: 999;
+    border-radius: 15px;
+
+}
+
+.menu-float .col-md-12:nth-child(1){
+    margin-top: 20px;
+}
+
+.menu-float h4, .menu-float a, .menu-float a:hover{
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    color: gray;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#slogan{
+    font-weight: bold;
+}
