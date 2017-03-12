@@ -16,13 +16,13 @@
 	// // // Define os dados do servidor e tipo de conexão
 	// // // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 	 $mail->IsSMTP(); // Define que a mensagem será SMTP
-	 $mail->Host = "br234.hostgator.com.br"; // Endereço do servidor SMTP	 
+	 $mail->Host = "br646.hostgator.com.br"; // Endereço do servidor SMTP	 
 	 $mail->SMTPAuth = true; // Usa autenticação SMTP? (opcional)
-	 $mail->Username = 'email_contato@navdrone.com.br'; // Usuário do servidor SMTP
+	 $mail->Username = 'contato@navdrone.com.br'; // Usuário do servidor SMTP
 	 $mail->Password = 'licococo734'; // Senha do servidor SMTP
 	//  // Define o remetente
 	//  // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	 $mail->From = "email_contato@navdrone.com.br"; // Seu e-mail
+	 $mail->From = "contato@navdrone.com.br"; // Seu e-mail
 	 $mail->FromName = "Contato de Cliente. E-mail Automático"; // Seu nome
 	
 
@@ -38,7 +38,7 @@
 	//  //$mail->CharSet = 'iso-8859-1'; // Charset da mensagem (opcional)
 	//  // Define a mensagem (Texto e Assunto)
 	//  // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	 $mail->Subject  = 'Contato de Cliente. E-mail Automático'; // Assunto da mensagem
+	 $mail->Subject  = $_POST['assunto_param']; // Assunto da mensagem
 	//  $email = "Parabéns";
 	 
 	//  // $email = file_get_contents('visitante-proprietario-email.php');
@@ -52,18 +52,18 @@
 
 	//  // $mail->body =  file_get_contents('visitante-proprietario-email.php');
 	//  // $mail->body = str_replace("#URL#", $url, $mail->body);
-
-	 $mail->Body = 	'$email';
+	 $email = 'Nome: '. $_POST['nome_param']."<br> E-mail:".$_POST['email_param'].'<br> Telefone: '.$_POST['telefone_param'].'<br> Mensagem: '.$_POST['mensagem_param'];
+	 $mail->Body = 	$email;
 	//  //$mail->AddAttachment("book_natal.pdf", "book_natal.pdf");  // Insere um anexo
-	//  $enviado = $mail->Send();	
+	 $enviado = $mail->Send();	
 
 	//  $result = array();
 
-	//  if($enviado){
-	//  	$result["status"] = "success";
-	//  }else{
-	//  	$result["status"] = "error";
-	//  }
+	 if($enviado){
+	 	$result["status"] = "success";
+	 }else{
+	 	$result["status"] = "error";
+	 }
 
 	//  echo json_encode($result);
 	// $mail->AltBody = "Este é o corpo da mensagem de teste, em Texto Plano! \r\n :)";

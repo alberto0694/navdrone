@@ -2,6 +2,11 @@ var $ = jQuery.noConflict();
 
 
 // Page Loader
+$(document).ready(function(){
+    $("<hr>").insertAfter(".lista-areas li");
+        
+});
+
 $(window).load(function () {
     "use strict";
 	$('#loader').fadeOut();
@@ -14,10 +19,8 @@ $(window).load(function () {
         $('.input-group #search_param').val(param);
     });  
 
-
-
-
     $(".back-midia").click(function(){
+        $("#img-big-size-port").attr("src", "");
         $(".play-file").fadeOut(function(){
             $(".intro-album .row").fadeIn();
             $(".midia-video, .midia-imagem").hide();
@@ -31,13 +34,19 @@ $(window).load(function () {
 });
 
 
-function chamaMidia($cod_midia){
+function chamaMidia($cod_midia, $path){
     $(".intro-album .row").fadeOut(function(){
         $(".play-file").fadeIn(function(){
             if($cod_midia == 'V'){
-                $(".midia-video").fadeIn();
+                $(".midia-video").fadeIn(function(){
+                    $("#video-port").attr("src", $path.toString());
+                    $("body, html").scrollTop($('.intro-album').offset().top);
+                });
             }else{
-                $(".midia-imagem").fadeIn();
+                $(".midia-imagem").fadeIn(function(){
+                    $("#img-big-size-port").attr("src", $path.toString());
+                    $("body, html").scrollTop($('.intro-album').offset().top);
+                });
             }  
         });
 
@@ -45,15 +54,53 @@ function chamaMidia($cod_midia){
 
 }
 
-
-function chamaAlbum($cod_album){
-    //fazer requisição ajax com $cod_album
-
-
-
-
+function callModal(titulo, conteudoObj, pathImg)
+{
+    if(pathImg == ''){
+        pathImg = 'assets/images/navdrone-logo-medium.png';
+    }
+    $('.message-info').html('');
+    $('.modal-content input').val('');
+    //$(".content").height($(conteudoObj).height());
+    //$("#areas-atuacao .content").html(   $(conteudoObj).html()   );
+    $("#modal-icon").attr("src", pathImg.toString());
+    $(".modal-title").html(titulo);
+    $("#areas-atuacao").modal();
 }
 
+function emailNavdrone(assunto, nome, telefone, email, mensagem, modal = false){
+
+    var assunto_var = '';
+
+    if(modal){
+        assunto_var = $(assunto).html();
+    }else{
+        assunto_var = $(assunto).val();
+    }
+
+    $.ajax({
+        type: 'POST',
+        url: 'assets/data/email-cliente.php',            
+        data:{  assunto_param:assunto_var,
+                nome_param:$(nome).val(),
+                telefone_param:$(telefone).val(),
+                email_param:$(email).val(),
+                mensagem_param:$(mensagem).val()
+        },                                                 
+        success: function(data) { 
+            $("textarea, input").val('');
+            $("textarea").val('');
+            if(modal){
+                    $('.contact_email .message-info').html('<div class="alert alert-success"><strong>Obrigado!</strong> Recebemos o seu contato, lhe retornaremos o mais breve possível.</div>');
+            }else{
+                    $('#contact .message-info').html('<div class="alert alert-success"><strong>Obrigado!</strong> Recebemos o seu contato, lhe retornaremos o mais breve possível.</div>');
+            }
+        },
+        error: function(reason){
+        }
+    }); 
+  
+}
 
 
 
