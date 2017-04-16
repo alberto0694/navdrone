@@ -1811,7 +1811,7 @@ footer {
     }
 
     .slogan-2{
-        margin-bottom: 130px;
+        margin-bottom: 100px;
     }
 
     .slogan-2:nth-child(2){
@@ -1843,5 +1843,12 @@ footer {
         padding-top: 23px;
     }
 
-
+    .slogan-1:nth-child(2){
+        margin-bottom: 10px;
+        font-size: 20pt;
+    }
+    .slogan-1{
+        
+        font-size: 20pt;
+    }
 }

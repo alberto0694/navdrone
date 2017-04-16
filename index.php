@@ -203,11 +203,11 @@
             </div>
 
             <!-- Controls -->
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                <span class="icon-prev"></span>
+            <a  class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span style="color: #28abe3; font-size: 80pt;" class="icon-prev"></span>
             </a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                <span class="icon-next"></span>
+            <a  class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span style="color: #28abe3; font-size: 80pt;" class="icon-next"></span>
             </a>
 
         </header> 
@@ -221,7 +221,7 @@
                 <div class="col-md-12 col-sm-12">
                     <div class="section-title text-center">
                             <h2>Quem somos</h2>
-                            <p>A NAVDRONE imagens aéreas & Subquaticas surgiu visando atender a grande demanda por produção de imagens aéreas que pudessem ser executadas sem o alto custo de uma produção com diárias de aeronaves, Somos especializados em fotografia e filmagem aérea com qualidade ULTRA HD  utilizando V.A.N.T. (Veículos Aéreos Não Tripulados). Além de dispor de profisionais na area de mergulho profissionais a Navdrone oferece inspeção submersa com vídeo e foto, serviços de inspeção em naufrágios, embarcações e  reservatórios de água potável com foto e vídeo acompanhado de monitoramento na superfície.</p>
+                            <p>A NAVDRONE imagens aéreas & Subaquaticas surgiu visando atender a grande demanda por produção de imagens aéreas que pudessem ser executadas sem o alto custo de uma produção com diárias de aeronaves. Somos especializados em fotografia e filmagem aérea com qualidade ULTRA HD  utilizando V.A.N.T. (Veículos Aéreos Não Tripulados), além de dispor de profissionais na área de mergulho profissional, a Navdrone oferece inspeção submersa com vídeo e foto, serviços de inspeção em naufrágios, embarcações e  reservatórios de água potável com foto e vídeo acompanhado de monitoramento na superfície.</p>
                         </div>
                 </div>
                 <div class="quem-somos-mobile row">
@@ -438,11 +438,15 @@
                                 <span><i class="fa fa-video-camera" aria-hidden="true"></i> 01:12</span>
 
                             </div>
-                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('I','assets/images/portfolio/navdrone-imagens_19).jpg')">
-                                <img src="assets/images/portfolio/navdrone-imagens_19).jpg" class="img-responsive" alt="..">
-                                <span><i class="fa fa-picture-o" aria-hidden="true"></i> 3,49Mb</span>
+
+
+                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('V','https://player.vimeo.com/video/208415319')">
+                                <img src="assets/images/portfolio/video4.jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-video-camera" aria-hidden="true"></i> 02:35</span>
 
                             </div>
+
+
                             <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('I','assets/images/portfolio/navdrone-imagens (2).jpg')">
                                 <img src="assets/images/portfolio/navdrone-imagens (2).jpg" class="img-responsive" alt="..">
                                 <span><i class="fa fa-picture-o" aria-hidden="true"></i> 812KB</span>
@@ -525,6 +529,11 @@
                                 <img src="assets/images/portfolio/navdrone-imagens (6).jpg" class="img-responsive" alt="..">
                                 <span><i class="fa fa-picture-o" aria-hidden="true"></i> 733Kb</span>
                             </div> 
+                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('I','assets/images/portfolio/navdrone-imagens_19).jpg')">
+                                <img src="assets/images/portfolio/navdrone-imagens_19).jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-picture-o" aria-hidden="true"></i> 3,49Mb</span>
+
+                            </div>
                         </div>
 
                     </div>
@@ -756,7 +765,8 @@
             <ul>
                 <li><strong>E-mail :</strong> contato@navdrone.com.br</li>
                 <li><strong>Fone 1 :</strong> (47) 99181-1959</li>
-                <li><strong>Fone 2 :</strong> (47) 99943-5794</li>                
+                <li><strong>Fone 2 :</strong> (47) 99943-5794</li>     
+                <li><strong>Fone 3 :</strong> (47) 3065-6079</li>           
             </ul>
         </div>
     </div>
@@ -780,6 +790,7 @@
                 </div>
 
                 <div class="row">
+                  <h3 align="center" style="color:white">Profissionais Associados:</h3>
                     <div class="col-md-12">
                             <div class="col-md-9 col-md-offset-3">
                                     <div class="text-center">
