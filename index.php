@@ -422,7 +422,7 @@
                     <div class="container">
 
                     <div class="intro-album">
-                        <div class="row">
+                        <div class="row">                        
                             <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('V','https://player.vimeo.com/video/207341301')">
                                 <img src="assets/images/portfolio/video.jpg" class="img-responsive" alt="..">
                                 <span><i class="fa fa-video-camera" aria-hidden="true"></i> 01:28</span>
@@ -445,28 +445,32 @@
                                 <span><i class="fa fa-video-camera" aria-hidden="true"></i> 02:35</span>
 
                             </div>
+                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('V','https://player.vimeo.com/video/216942783')">
+                                <img src="assets/images/portfolio/video5.jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-video-camera" aria-hidden="true"></i> 02:35</span>
 
+                            </div>
+                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('V','https://player.vimeo.com/video/208415319')">
+                                <img src="assets/images/portfolio/video6.jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-video-camera" aria-hidden="true"></i> 02:06</span>
 
-                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('I','assets/images/portfolio/navdrone-imagens (2).jpg')">
-                                <img src="assets/images/portfolio/navdrone-imagens (2).jpg" class="img-responsive" alt="..">
-                                <span><i class="fa fa-picture-o" aria-hidden="true"></i> 812KB</span>
-                            </div>   
-                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('I','assets/images/portfolio/navdrone-imagens (20).jpg')">
-                                <img src="assets/images/portfolio/navdrone-imagens (20).jpg" class="img-responsive" alt="..">
-                                <span><i class="fa fa-picture-o" aria-hidden="true"></i> 1MB</span>
-                            </div>                    
+                            </div>                            
+
+                
                             
                         </div><!-- /.row -->
                         <div class="row">
-                            
-                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('I','assets/images/portfolio/navdrone-imagens (7).jpg')">
-                                <img src="assets/images/portfolio/navdrone-imagens (7).jpg" class="img-responsive" alt="..">
-                                <span><i class="fa fa-picture-o" aria-hidden="true"></i> 797KB</span>
+                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('V','https://player.vimeo.com/video/214928854')">
+                                <img src="assets/images/portfolio/video7.jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-video-camera" aria-hidden="true"></i> 02:35</span>
+
                             </div> 
-                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('I','assets/images/portfolio/navdrone-imagens (8).jpg')">
-                                <img src="assets/images/portfolio/navdrone-imagens (8).jpg" class="img-responsive" alt="..">
-                                <span><i class="fa fa-picture-o" aria-hidden="true"></i> 1,17Mb</span>
+                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('V','https://player.vimeo.com/video/216942873')">
+                                <img src="assets/images/portfolio/video8.jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-video-camera" aria-hidden="true"></i> 02:35</span>
+
                             </div> 
+
                             <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('I','assets/images/portfolio/navdrone-imagens (9).jpg')">
                                 <img src="assets/images/portfolio/navdrone-imagens (9).jpg" class="img-responsive" alt="..">
                                 <span><i class="fa fa-picture-o" aria-hidden="true"></i> 1,15Mb</span>
@@ -534,6 +538,25 @@
                                 <span><i class="fa fa-picture-o" aria-hidden="true"></i> 3,49Mb</span>
 
                             </div>
+
+                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('I','assets/images/portfolio/navdrone-imagens (2).jpg')">
+                                <img src="assets/images/portfolio/navdrone-imagens (2).jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-picture-o" aria-hidden="true"></i> 812KB</span>
+                            </div>   
+                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('I','assets/images/portfolio/navdrone-imagens (20).jpg')">
+                                <img src="assets/images/portfolio/navdrone-imagens (20).jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-picture-o" aria-hidden="true"></i> 1MB</span>
+                            </div>                               
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('I','assets/images/portfolio/navdrone-imagens (7).jpg')">
+                                <img src="assets/images/portfolio/navdrone-imagens (7).jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-picture-o" aria-hidden="true"></i> 797KB</span>
+                            </div> 
+                            <div class="col-md-2 img-thumbnail-intro" onclick="chamaMidia('I','assets/images/portfolio/navdrone-imagens (8).jpg')">
+                                <img src="assets/images/portfolio/navdrone-imagens (8).jpg" class="img-responsive" alt="..">
+                                <span><i class="fa fa-picture-o" aria-hidden="true"></i> 1,17Mb</span>
+                            </div>                         	
                         </div>
 
                     </div>
