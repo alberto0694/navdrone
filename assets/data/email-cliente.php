@@ -1,28 +1,16 @@
 <?php
 
-
-	// $comando = "insert into contato set name = '".$_POST['name']."', email = '".$_POST['email']."', city = '".$_POST['city']."'";
-
-	// $conexao = mysqli_connect("localhost", "ladecora_site", "rMGNzVaa5gFq", "ladecora_site");
-	// mysql_set_charset('latin1',$conexao);
-	//$conexao = mysqli_connect("localhost", "root", "", "ladecora_site");
-	// $consulta = mysqli_query($conexao,$comando);
-
-	// var_dump($consulta);
-
 	require_once("PHPMailer/PHPMailerAutoload.php");
-
 	 $mail = new PHPMailer();
-	// // // Define os dados do servidor e tipo de conexão
-	// // // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
 	 $mail->IsSMTP(); // Define que a mensagem será SMTP
 	 $mail->Host = "br646.hostgator.com.br"; // Endereço do servidor SMTP	 
 	 $mail->SMTPAuth = true; // Usa autenticação SMTP? (opcional)
-	 $mail->Username = 'contato@navdrone.com.br'; // Usuário do servidor SMTP
+	 $mail->Username = 'no_reply@navdrone.com.br'; // Usuário do servidor SMTP
 	 $mail->Password = 'licococo734'; // Senha do servidor SMTP
 	//  // Define o remetente
 	//  // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	 $mail->From = "contato@navdrone.com.br"; // Seu e-mail
+	 $mail->From = "no_reply@navdrone.com.br"; // Seu e-mail
 	 $mail->FromName = "Contato de Cliente. E-mail Automático"; // Seu nome
 	
 
